@@ -143,7 +143,7 @@ section:last-child {
 	margin-bottom: 3px;
 }
 
-.keySkills {
+.keySkills, .subjects {
 	list-style-type: none;
 	-moz-column-count:3;
 	-webkit-column-count:3;
@@ -153,8 +153,8 @@ section:last-child {
 	color: #444;
 }
 
-.keySkills ul li {
-	margin-bottom: 3px;
+.keySkills, .subjects li {
+	margin-bottom: 4px;
 }
 
 @media all and (min-width: 602px) and (max-width: 800px) {
@@ -162,7 +162,7 @@ section:last-child {
 		display: none;
 	}
 	
-	.keySkills {
+	.keySkills, .subjects  {
 	-moz-column-count:2;
 	-webkit-column-count:2;
 	column-count:2;
@@ -196,7 +196,7 @@ section:last-child {
 		font-size: 1.25em;
 	}
 	
-	.keySkills {
+	.keySkills, .subjects {
 		-moz-column-count:2;
 		-webkit-column-count:2;
 		column-count:2;
@@ -217,7 +217,7 @@ section:last-child {
 	}
 
 	
-	.keySkills {
+	.keySkills, .subjects {
 	-moz-column-count:1;
 	-webkit-column-count:1;
 	column-count:1;
